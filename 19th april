@@ -113,3 +113,22 @@ elif y>z and y>x:
  
 
 #fibonacci series
+0,1,1,2,3,5,8,13
+c=a+b
+a=b
+b=c
+
+n=int(input(Enter limit: "))
+a=0
+b=1
+if(n<=2):
+ print("Please enter a valid number")
+else:
+ print(a,end=" ")
+ print(b,end=" ")
+ for i in range(n-2):
+  c=a+b
+  print(c,end=" ")
+  a=b
+  b=c
+  
