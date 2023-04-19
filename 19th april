@@ -36,3 +36,15 @@ num=121 rem=1 rev=1
 num=12  rem=2 rev=12
 num=1   rem=1 rev=121
 num=0
+
+In Python
+num=int(input("Enter a number: "))
+temp=num
+while num!=0:
+ rem=num%10
+ rev=rev*10+rem
+ num=num/10
+if rev==temp:
+  print("Given number is palindrome")
+else:
+  print("Given number is not palindrome")
