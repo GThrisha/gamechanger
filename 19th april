@@ -76,18 +76,16 @@ else:
 # calculate the area of triangle,square,rectangle
 
 side=int(input("Enter the side of square: "))
-area=side*side
-print(area)
-
+area_square=side*side
+print(area_square)
 length=int(input("Enter the length of rectangle: "))
 breadth=int(input("Enter the breadth of rectangle: "))
-area=length*breadth
-print(area)
-
+area_rect=length*breadth
+print(area_rect)
 base=int(input("Enter the base of triangle: "))
 height=int(input("Enter the height of rectangle: "))
-area=1/2*base*height
-print(area)
+area_tri=1/2*base*height
+print(area_tri)
 
 
 # swap three numbers
@@ -95,10 +93,21 @@ print(area)
 x=int(input())
 y=int(input())
 z=int(input())
-temp=x
-x=y
-y=z
-z=temp
-print(x)
-print(y)
-print(z)
+if (x>y and x>z):
+ if y<z:
+  temp=x
+  x=y
+  y=z
+  z=temp
+ else:
+  temp=x
+  x=z
+  z=temp
+elif y>z and y>x:
+ if x<z:
+  temp=y
+  y=x
+  x=z
+  z=temp
+ else:
+ 
