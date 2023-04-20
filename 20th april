@@ -1,0 +1,31 @@
+# Strings
+
+a="thrisha"
+print(a)   o/p:thrisha
+
+a="jjdu2334@!#"
+print(a)   o/p:jjdu2334@!#
+
+print(type(a))  o/p:<class 'str'>
+
+a=12344
+print(type(a))  o/p:<class 'int'>
+
+a=4.5
+print(type (a))  o/p:<class 'float'>
+
+a="thrish"
+b="18"
+print(a,b)     o/p:thrish 18
+
+a='thrish's'
+print(a)      o/p:syntax error:unterminated string literal
+
+a='thrish"s'
+print(a)      o/p:thrish"s
+
+a="thrish's"
+print(a)      o/p:thrish's
+
+
+
