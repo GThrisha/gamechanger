@@ -27,5 +27,10 @@ print(a)      o/p:thrish"s
 a="thrish's"
 print(a)      o/p:thrish's
 
+#Concatenation of strings
+
+a="good"
+b="morning"
+print(a+b)     o/p:goodmorning
 
 
