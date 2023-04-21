@@ -161,10 +161,19 @@ else:
  print("control is inside else")
  o/p:ZerodivisionError
  
+Alias for exceotion:
 try:
  x=1/0
 except ZeroDivisionError as err:
  print(err)
 o/p:division by error
  
-Finally: 
+Finally: executes everytime
+try:
+ x=1/0
+except ZeroDivisionError as err:
+ print(err)
+finally:
+ print("Always gets executed")
+ o/p:division by zero
+     Always gets executed
