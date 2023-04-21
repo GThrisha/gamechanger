@@ -119,5 +119,32 @@ except ImportError:
 except ZeroDivisionError:
  print("ZeroDivisionError occured")
  o/p:ZeroDivisionError occured
-
-
+ 
+ 
+Try with else: else will be executed after try when there is no exception
+try:
+ x=1/10
+except EOFError:
+ print("end of the file occured")
+except ImportError:
+ print("import error exception occured")
+except ZeroDivisionError:
+ print("ZeroDivisionError occured")
+else:
+ print("control is inside else")
+ o/p:control is inside else
+ 
+try:
+ x=1/10
+ print("inside try")
+except EOFError:
+ print("end of the file occured")
+except ImportError:
+ print("import error exception occured")
+except ZeroDivisionError:
+ print("ZeroDivisionError occured")
+else:
+ print("control is inside else")
+ o/p:
+ inside try
+ control is inside else
