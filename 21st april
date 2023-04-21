@@ -26,3 +26,26 @@ l=[1,1,1,2,3,4,2,3]
 print(l.pop())    #3
 print(l.pop())    #2
 print(l)          #[1,1,1,2,3,4]
+
+print(l.pop(0))  #1
+print(l)         #[1,1,2,3,4]
+
+#6.reverse()-
+l=[1,4,2,7,3]
+l.reverse()
+print(l)    #[3,7,2,4,1]
+
+#7.sort()-sorts the list in ascending order
+l.sort()
+print(l)   #[1,2,3,4,7]
+
+l.sort(reverse=True)  - sorts the list in decreasing order
+print(l)   #[7,4,3,2,1]
+
+#8.remove()-removes the specified element
+l3=[1,2,2,3,4,5]
+l3.remove(2)
+print(l3)      #[1,2,3,4,5]
+
+#9.insert()-adds the element at the specified position
+l3.insert(
