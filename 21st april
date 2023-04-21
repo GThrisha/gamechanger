@@ -102,3 +102,22 @@ Errors and Exceptions
  except:
    print("Execution occured")
 o/p: execution occured
+
+ try: 
+   x=1/0
+ except ZeroDivisionError:
+   print("ZeroDivisionError occured")
+o/p:ZeroDivisionError occured
+
+Try with Multiple catch:
+try:
+ x=1/0
+except EOFError:
+ print("end of the file occured")
+except ImportError:
+ print("import error exception occured")
+except ZeroDivisionError:
+ print("ZeroDivisionError occured")
+ o/p:ZeroDivisionError occured
+
+
