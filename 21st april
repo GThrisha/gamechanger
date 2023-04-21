@@ -148,3 +148,21 @@ else:
  o/p:
  inside try
  control is inside else
+ 
+ try:
+ x=1/0
+except EOFError:
+ print("end of the file occured")
+except ImportError:
+ print("import error exception occured")
+except ZeroDivisionError:
+ print("ZeroDivisionError occured")
+else:
+ print("control is inside else")
+ o/p:ZerodivisionError
+ 
+try:
+ x=1/0
+except ZeroDivisionError as err:
+ 
+ 
