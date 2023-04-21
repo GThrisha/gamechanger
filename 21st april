@@ -48,4 +48,17 @@ l3.remove(2)
 print(l3)      #[1,2,3,4,5]
 
 #9.insert()-adds the element at the specified position
-l3.insert(
+l3.insert()
+
+
+#patterns
+         *
+       * * *
+     * * * * *
+   
+   
+   
+Errors and Exceptions
+ what? why? at what time?
+ 
+ 
