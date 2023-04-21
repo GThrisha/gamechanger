@@ -1,0 +1,24 @@
+list=[1,2,3,4,5]
+
+#1.Append Method
+list.append(10)
+print(list)
+o/p: [1,2,3,4,5,10]
+
+#2.clear Method
+list.clear()
+o/p: []
+
+#3.copy()-returns the copy of the list
+x=[1,2,3,4,5,10]
+x=list.copy()
+print(x)
+o/p:[1,2,3,4,5,10]
+
+#4.count()-counts the occurences of specified element
+l=[1,1,1,2,3,4,2,3]
+l.count(1)   #3
+l.count(2)   #2
+l.count('a') #0
+
+#5.
