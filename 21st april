@@ -61,4 +61,37 @@ l3.insert()
 Errors and Exceptions
  what? why? at what time?
  
+ errors are of two types
+ 1.logical errors-come into existence at runtime
+ 2.syntax errors-come into existence at compile time
  
+ Exception-
+ 1.stmt
+ 2.1/0 -exception always come into existence at runtime
+ 3.stmt
+ 
+ 1.ZeroDivisionError
+ print(1/0)
+ o/p: ZeroDivisionError:division by zero
+ Syntax error is also an exception
+ print["hello world"]
+ o/p: TypeError:'byiltin_function_or_method' is not
+ 
+ EOFError-when input reaches end of the file
+ 
+ IndexError-when we access index that doesn't exists
+ l=[1,2,3,4]
+ print(l[6])
+ IndexError:list index out of range
+ 
+ ImportError
+ 
+ KeyboardInterrupt
+ 
+ RuntimeError
+ 
+ ValueError
+ 
+ NameError
+ 
+ IndentationError
