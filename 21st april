@@ -88,6 +88,13 @@ Errors and Exceptions
  
  KeyboardInterrupt
  
+ Exception Handling
+ try: 
+   x=23/0
+ except:
+   print("Execution occured")
+o/p: execution occured
+ 
  RuntimeError
  
  ValueError
