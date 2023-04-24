@@ -79,3 +79,21 @@ def fibonacci(n):
         count+=1
 fibonacci(10)
 # always count+=1 is faster than count++
+
+LCM-least common multiple
+def findLcm(a,b):
+    if a>b:
+        greater=a
+    else:
+        greater=b
+    while True:
+        if((greater%a==0) and (greater%b)==0):
+            lcm=greater
+            break
+        greater+=1
+    return lcm
+print(findLcm(20,30))
+
+HCF-highest common factor
+
+
