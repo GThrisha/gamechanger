@@ -1,0 +1,16 @@
+Agenda:
+
+Functions
+1.define
+2.call
+3.return 
+4.func with and without return
+5.recursive function
+Set,Dictionaries,in-built functions in python-range(),rstrip(),split(),input(),print()
+Dynamic programming
+
+
+Functions:
+reusability
+clean and readable and light weight
+def function_name():
