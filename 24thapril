@@ -96,4 +96,19 @@ print(findLcm(20,30))
 
 HCF-highest common factor
 
+Recursion-a function calling itself
+function a()
+{
+  a();
+}
+Example:
+def doJob2(n):
+    if n<=5:
+        return -1
+    doJob2(n-1)
+    print(n)
+    doJob2(n-1)
+    print(n)
+doJob2(8)
+o/p:66766786676678
 
