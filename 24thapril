@@ -14,3 +14,4 @@ Functions:
 reusability
 clean and readable and light weight
 def function_name():
+in python,function can return multiple values
