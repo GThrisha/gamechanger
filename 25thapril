@@ -57,3 +57,12 @@ stores data in key-value pairs
 it is ordered
 it is changeable
 it doesnt allow duplicates
+how to create a dictionary?
+ d={}
+ type(d)
+<class 'dict'>
+how to access key in dictionary?
+ d={'name':'thrisha','age':20,'occupation':'student'}
+ print(d['name'])
+o/p: thrisha
+
