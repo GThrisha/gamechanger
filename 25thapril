@@ -84,3 +84,24 @@ o/p: dict_items([('name', 'TG'), ('age', 20), ('occupation', 'student')])
 keys():Returns a list containing the dictionary's keys
 d.keys()
 o/p: dict_keys(['name', 'age', 'occupation'])
+
+Object Oriented Programming:
+it is a programming logic that revolves around the concept of classes and instances of those classes.
+class Car:
+ engineType="Strongest Engine"
+ numberOfTyres=6
+ numberOfWindows=6
+ IsFridgeAvailable=True
+ 
+def getNumberOfWindows(self):
+ return self.numberOfWindows
+ 
+def getNumberOfTyres():
+ return numberOfTyres
+ 
+car1=new Car()
+printt(car1.engineType)     #1st way to access properties
+o/p:Strongest Engine
+
+print(car1.getNumberOfWindows())
+print(car1.getnumberofTyres())
