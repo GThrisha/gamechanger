@@ -96,12 +96,12 @@ class Car:
 def getNumberOfWindows(self):
  return self.numberOfWindows
  
-def getNumberOfTyres():
- return numberOfTyres
+def getNumberOfTyres(self):
+ return self.numberOfTyres
  
 car1=new Car()
 printt(car1.engineType)     #1st way to access properties
 o/p:Strongest Engine
 
-print(car1.getNumberOfWindows())
-print(car1.getnumberofTyres())
+print(car1.getNumberOfWindows())   #6
+print(car1.getnumberofTyres())     #4
