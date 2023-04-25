@@ -16,3 +16,24 @@ def fib(n):
         return fib(n-1)+fib(n-2);
 result=fib(10)
 print(result)
+
+Sum of N Fibonacci Numbers
+def sumOfNFibonacciNums(n):
+    sum=0
+    a=0
+    b=1
+    if n<=0:
+        return -1;
+    if n==1:
+        return 0;
+    if n==2:
+        return 1;
+    for i in range(0,n-2):
+        c=a+b
+        sum=sum+c;
+        a=b;
+        b=c;
+    print(sum)
+sumOfNFibonacciNum(5)  
+o/p:6
+
