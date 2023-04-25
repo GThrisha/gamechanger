@@ -68,3 +68,8 @@ o/p: thrisha
  d['name']='thrish'  #updating values
  print(d['name'])    #we can also use update() method
 o/p: thrish
+update() :
+mydict={'name':'TG'}
+d.update(mydict)
+print(d['name'])
+o/p: TG
