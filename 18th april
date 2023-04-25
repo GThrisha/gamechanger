@@ -1,0 +1,103 @@
+-> written simple language
+Algorithm: Step by step procedure to finish a task.
+1. Step form
+2. Pseudo code
+3. Flow chart
+Variable: a named storage container that stores values 
+Datatype: the type of data that has been stored 
+1. Int: Integer type
+example: x=9
+2. float: decimals
+example : x=3.54
+3. string: series of chacters
+example: x="Swathi"
+4. Boolean : True or False
+
+# example program
+#include<stdio.h>
+void main()
+{
+int a,b;
+printf("enter the values");
+scanf("%d%d", &a,&b);
+printf("addition:%d",a+b);
+}
+
+# example program
+x= int(input("enter the value"))
+y= int(input("enter the value"))
+print(x+y)
+
+Operators:The symbols that perform operation on operands
+1. Arithematic operators: +,-,*,/,%
+2. Logical: AND, OR, NOT
+
+ a>b AND a>c
+  e1  e2 output                          
+  0   0    0
+  1   0    0
+  0   1    0
+  1   1    1
+
+a>b OR a>c
+ e1  e2  output
+ 1   1     1
+ 1   0     1
+ 0   1     1
+ 0    0    0
+
+NOT 
+e1 output
+1    0
+0    1
+
+3. relational:  >,<,>=,<=,==,!=
+4. Unary: 
+a=10;
+a++; use and then increment by 1
+++a; increment by 1 and then use it 
+
+
+a=10
+print(a)   #prints 10
+a = a+1   #a+=1
+print(a)   #prints 11
+++a
+print(a)   #prints 12
+
+5. assignment: (=)
+
+a=6 a==6
+6. membership:
+in   - true
+not in   - false
+
+7. Bitwise : performing operations from the bit level 
+a. &( and)
+b. |(or)
+c. ^(XOR)
+d. ~(Not)
+
+8. identity:
+is 
+is not 
+
+
+Conditional statements:
+
+if(cond)
+elif
+else
+
+
+example:
+
+a=10
+b=20
+if a>b:
+  print(" a is the greatest")
+else:
+  print(" b is the greatest")
+ 
+ 
+ #write a program to find the greatest of 3 numbers by taking input from the user
