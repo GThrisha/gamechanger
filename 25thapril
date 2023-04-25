@@ -61,15 +61,26 @@ how to create a dictionary?
  d={}
  type(d)
 <class 'dict'>
+
 how to access key in dictionary?
  d={'name':'thrisha','age':20,'occupation':'student'}
  print(d['name'])
 o/p: thrisha
+
  d['name']='thrish'  #updating values
  print(d['name'])    #we can also use update() method
 o/p: thrish
+
 update() :
 mydict={'name':'TG'}
 d.update(mydict)
 print(d['name'])
 o/p: TG
+
+items():Returns a list containing a tuple for each key value pair
+d.items()
+o/p: dict_items([('name', 'TG'), ('age', 20), ('occupation', 'student')])
+
+keys():Returns a list containing the dictionary's keys
+d.keys()
+o/p: dict_keys(['name', 'age', 'occupation'])
