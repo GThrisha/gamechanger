@@ -1,0 +1,10 @@
+oops:
+*pillars of oops
+*implement all pillars
+*few fancy terms
+Project: console based mini project -library management system
+
+constructor-will be executed just before creation of an object
+destructor-will be executed just before destruction of an object
+when we want to perform something everytime before creating an object,do it inside a constructor
+when we want to perform something everytime before destructor an object,do it inside a destructor
