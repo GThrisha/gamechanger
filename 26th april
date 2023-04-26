@@ -29,3 +29,14 @@ o/p: 145
      Mystery
      25-10-1998
      destructor is called
+     
+ four pillarsof OOPs:
+ 1.inheritance
+ 2.polymorphism
+ 3.abstraction
+ 3.Encapsulation
+ 
+ 1.Inheritance-phenomenon in which child classes will have access to parent resources
+ acquiring /having access to parent properties
+ parent will not have access to child resources
+ 
