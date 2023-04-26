@@ -91,4 +91,12 @@ my_child = Child()
 o/p: trying to get all parents of this class
 [<class '__main__.Parent1'>, <class '__main__.Parent2'>, <class '__main__.Parent3'>]
 
- 
+ Polymorphism:function have same name but have different signatures
+ def addNumbers(a,b):
+    print(a+b)
+ def addNumbers(a,b,c=2):
+    print(a+b+c)
+ addNumbers(10,20)
+ addNumbers(10,20,30)
+o/p:32
+    60
